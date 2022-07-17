@@ -1,0 +1,30 @@
+{
+  "name": "todo-app-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Todo app coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FullStackCorm/ToDo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FullStackCorm/ToDo/issues"
+  },
+  "homepage": "https://github.com/FullStackCorm/ToDo#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongodb": "^4.8.0"
+  },
+  "devDependencies":{
+    "nodemon": "^2.0.19"
+  }
+}
